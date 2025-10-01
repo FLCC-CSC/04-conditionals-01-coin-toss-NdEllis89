@@ -47,7 +47,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+Going back to previous notes to be sure I had import random correctly entered.
 
 
 
