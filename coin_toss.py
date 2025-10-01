@@ -1,19 +1,23 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Noah Ellis 
+# DATE: 10/1/25
+# BRIEF DESCRIPTION: Determine whether or not a coin is heads or tails using 1-100
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+import random
 
+coin = random.randint(1, 100)
 
+print('===== Coin Flipper =====')
 
-
-
-
+if coin > 50:
+    print('Tails')
+if coin < 51:
+    print('Heads')
 
 
 
